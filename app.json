@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "DZVibe",
+    "slug": "dzvibe",
+    "version": "1.0.8",
+    "scheme": "dzvibe",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.dzvibe.app",
+      "versionCode": 10
+    },
+    "ios": {
+      "bundleIdentifier": "com.dzvibe.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      ["expo-video", {"supportsPictureInPicture": true}]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "93b4205d-3151-42ce-99bc-aba98b346950"
+      }
+    }
+  }
+}
